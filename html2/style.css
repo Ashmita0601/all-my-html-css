@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header *{
+    display: inline;
+    padding-left: 8px;
+    padding-right: 10px;
+}
+header{
+    background-color: rgba(41, 38, 38, 0.96);
+    /* position: fixed; */
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 40px;
+    align-items: center;
+    /* padding-bottom:1px; */
+    display: flex;
+   
+    
+}
+header li{
+    color: white;
+    font-style: normal;
+   
+}
+.container{
+    justify-content: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 192, 235, 0.842);
+    font-style: bold;
+}
+.container2{
+    color: white;
+    background-color: rgb(2, 112, 190);
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+.about{
+    background-color: rgb(226, 226, 226);
+    width:700px;
+    padding: 20px;
+}
+.about h2 ,h5{
+    padding-bottom: 10px;
+}
+.title h2 ,h5{
+    padding-bottom: 10px;
+}
+.th{
+    padding-top: 10px;
+}
+.image{
+    background-color: rgb(166, 166, 166);
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.image2{
+    margin-top: 20px;
+    background-color: rgb(166, 166, 166);
+    height: 50px;
+    padding-left: 20px;
+    padding-top:15px;
+    margin-bottom: 20px
+}
+.image3{
+    margin-top: 20px;
+    background-color: rgb(166, 166, 166);
+    height: 50px;
+    padding-left: 20px;
+    padding-top:15px;
+    margin-bottom: 20px
+}
+.image4{
+    margin-top: 20px;
+    background-color: rgb(166, 166, 166);
+    height: 50px;
+    padding-left: 20px;
+    padding-top:15px;
+    margin-bottom: 20px
+}
+
+.title{
+    padding-left:15px;
+}
+.combine{
+    display: flex;
+}
